@@ -39,6 +39,7 @@ class3 <- subset(x, class==3)
 class3 <- class3[,-15]
 class3[is.na(class3)] <- 0
 
+#--comment out below for fourth class
 #class4 <- subset(x, class==4)
 #class4 <- class4[,-15]
 #class4[is.na(class4)] <- 0
